@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <title>Project-2</title>
+</head>
+
+<body>
+
+    <!-- navbar-section -->
+
+    <section>
+        <div class="nav-bar-wrapper">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="nav-logo">
+                        <img src="./img/nav-logo.png" alt="Logo">
+                    </div>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner-swiper-section -->
+
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper slides-per-view=" 1 speed="500" loop="true" css-mode="true">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./img/banner.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner.jpg" alt="">
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <!-- about-us-section -->
+
+    <section>
+        <div class="about-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="about-image-box">
+                            <img src="./img/about-us.png" alt="#" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="about-heading-box">
+                            <h6>about-us</h6>
+                            <h5>welcome to</h5>
+                            <h4>gold star battery (u) limited</h4>
+                        </div>
+                        <div class="about-para-box">
+                            <p>We are one of the largest battery manufacturers in Uganda. Gold Star is a reputable and
+                                reliable battery manufacturer. We offer a variety of cutting-edge solutions for UPS and
+                                Solar appilcations. Our batteries are designed to offer maximum satisfaction to our
+                                customers and fulfill the energy requirements of their homes and solar power backup.</p>
+                            <p>With longer backup, zero maintenance and smooth performance, our batteries are the ideal
+                                choice to power your life. We at Gold Star, always put more focus on being a responsible
+                                organization and therefore undertake steps to bring social sustainability and use the
+                                resources judiciously.</p>
+                            <p>We constantly innovate and carry out Research & Development to bring quality production
+                                to the market. We establish long lasting relations with our channel partners and
+                                millions of consumers with our services.</p>
+                        </div>
+                        <div class="button-box">
+                            <a href="#"><button>read more</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our-service -->
+
+    <section>
+        <div class="our-service-wrapper">
+            <div class="container">
+                <div class="our-service-heading-box">
+                    <h4>our service</h4>
+                    <h3>why choose us</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="box-card">
+                            <div class="inner-logo-box-card">
+                                <img src="./img/our-service-logo-1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="inner-text-box-card">
+                                <h4>quality product</h4>
+                                <p> We are committed to manufacturing batteries that meet the highest standards of
+                                    quality, ensuring reliability, safety, and optimal performance. Our rigorous quality
+                                    control processes and testing procedures guarantee that our batteries consistently
+                                    meet or exceed industry requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="box-card">
+                            <div class="inner-logo-box-card">
+                                <img src="./img/our-service-logo-2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="inner-text-box-card">
+                                <h4>Higher Backup</h4>
+                                <p> We are committed to manufacturing batteries that meet the highest standards of
+                                    quality, ensuring reliability, safety, and optimal performance. Our rigorous quality
+                                    control processes and testing procedures guarantee that our batteries consistently
+                                    meet or exceed industry requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="box-card">
+                            <div class="inner-logo-box-card">
+                                <img src="./img/our-service-logo-3.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="inner-text-box-card">
+                                <h4>Longer Life</h4>
+                                <p> We are committed to manufacturing batteries that meet the highest standards of
+                                    quality, ensuring reliability, safety, and optimal performance. Our rigorous quality
+                                    control processes and testing procedures guarantee that our batteries consistently
+                                    meet or exceed industry requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="box-card">
+                            <div class="inner-logo-box-card">
+                                <img src="./img/our-service-logo-4.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="inner-text-box-card">
+                                <h4>Instant Service</h4>
+                                <p> We are committed to manufacturing batteries that meet the highest standards of
+                                    quality, ensuring reliability, safety, and optimal performance. Our rigorous quality
+                                    control processes and testing procedures guarantee that our batteries consistently
+                                    meet or exceed industry requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- video-section -->
+
+            <div class="video-wrapper">
+                <div class="container">
+                    <div class="video-box">
+                        <video controls width="70%" height="50%">
+                            <source src="./img/video.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- background-home-service-section -->
+
+    <section>
+        <div class="background-image-home-service-wrapper"></div>
+    </section>
+
+    <!--home-service-section -->
+
+    <section class="home-service-wrapper-section">
+        <div class="home-service-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="home-service-head-box">
+                            <h5>home service</h5>
+                            <h3>Best Solution for your Home Energy</h3>
+                        </div>
+                        <div class="button-box">
+                            <a href="#"><button>contact us</button></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="home-service-para-box">
+                            <p>Rising environmental concerns and increasing fossil fuels costs makes Solar Energy
+                                the
+                                best solution for your home energy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature-product -->
+
+    <section>
+        <div class="feature-wrapper">
+            <div class="container">
+                <div class="feature-heading-text-box">
+                    <h3>feature product</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="feature-text-box">
+                            <h3>VRLA Battery For Solar Application</h3>
+                            <p>
+                                <i class="fa-solid fa-angles-right"></i>
+                                Our solar VRLA batteries are a reliable backup for solar applications and offer various
+                                advantages. Some of the advantages are listed below :
+                            </p>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Compact Design :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Long Life :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            second item's accordion body. Let's imagine this being filled with some
+                                            actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            No Maintenance :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                            aria-expanded="false" aria-controls="flush-collapseFour"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Valve Regulation :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="feature-img-box">
+                            <img src="./img/feature-1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <!-- second -->
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="feature-img-box-1">
+                            <img src="./img/feature-2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="feature-text-box">
+                            <h3>MF Battery for Solar Application</h3>
+                            <p>
+                                <i class="fa-solid fa-angles-right"></i>
+                                A maintenance-free (MF) battery is an ideal choice for solar applications due to its
+                                specific advantages :
+                            </p>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingfive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapsefive"
+                                            aria-expanded="false" aria-controls="flush-collapsefive"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Deep Discharged Capability :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingsix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapsesix"
+                                            aria-expanded="false" aria-controls="flush-collapsesix"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Long Lifespan :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapsesix" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            second item's accordion body. Let's imagine this being filled with some
+                                            actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingseven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseseven"
+                                            aria-expanded="false" aria-controls="flush-collapseseven"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Low Self-Discharged :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseseven" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingeight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseeight"
+                                            aria-expanded="false" aria-controls="flush-collapseeight"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Zero Maintenance :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseeight" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- third -->
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="feature-text-box">
+                            <h3>Motorcycle Battery</h3>
+                            <p>
+                                <i class="fa-solid fa-angles-right"></i>
+                                Motorcycle batteries have several advantages that make them well-suited for their
+                                intended purpose :
+                            </p>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingnine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapsenine"
+                                            aria-expanded="false" aria-controls="flush-collapsenine"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Compact and Lightweight :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapsenine" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingnine" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingten">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseten"
+                                            aria-expanded="false" aria-controls="flush-collapseten"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            High Cranking Power :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseten" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingten" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            second item's accordion body. Let's imagine this being filled with some
+                                            actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingeleven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseeleven"
+                                            aria-expanded="false" aria-controls="flush-collapseeleven"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Vibration Resistance :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseeleven" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingeleven" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingttwelve">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapsetwelve"
+                                            aria-expanded="false" aria-controls="flush-collapsetwelve"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Maintenance-Free :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapsetwelve" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingtwelve" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingthirteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapsethirteen"
+                                            aria-expanded="false" aria-controls="flush-collapsethirteen"
+                                            style="background-color: rgb(4 152 85); color:black;">
+                                            Maintenance-Free :
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapsethirteen" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingthirteen" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="feature-img-box">
+                            <img src="./img/feature-3.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our-project -->
+
+    <div class="our-project-wrapper">
+        <div class="container">
+            <div class="our-project-heading-box">
+                <h5>our project</h5>
+                <h2>explore Our latest projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="our-project-image-box-1"></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="our-project-image-box-2"></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="our-project-image-box-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- logo-swiper-section -->
+
+
+    <!-- testimonial -->
+
+    <!-- Our Blog and Articles -->
+
+    <section>
+        <div class="our-blog-article-wrapper">
+            <div class="container">
+                <div class="our-blog-article-head-box">
+                    <h4>Our Blog and Article</h4>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-blog-article-img-box">
+                            <img src="./img/blog-1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="our-blog-article-text-box">
+                            <h5>read our latest</h5>
+                            <h4>Powering the Future: Gold Star Solar Battery Manufacturer in Uganda</h4>
+                            <p>In the quest for a sustainable energy future, we always look for green energy that harms
+                                nature
+                                less. Solar energy plays a crucial role in reducing energy loss and promoting
+                                sustainability.Solar power enables decentralized energy generation, reducing
+                                transmission
+                                losses
+                                and providing electricity directly to households,</p>
+                        </div>
+                        <div class="button-box">
+                            <a href="#"><button>contact us</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-section -->
+
+    <section>
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="footer-image-box">
+                            <img src="./img/footer-logo.png" alt="">
+                        </div>
+                        <div class="footer-logo-box">
+                            <ul>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-instagram"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-facebook"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="footer-image-battery-box">
+                            <img src="./img/footer-battery.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="quick-links-box">
+                                    <h5>quick links</h5>
+                                    <div class="quick-links-inner">
+                                        <ul>
+                                            <a href="#">
+                                                <li><a href="#">home</a></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><a href="#">about</a></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><a href="#">product</a></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><a href="#">contact</a></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="product-box">
+                                    <h5>product box</h5>
+                                    <div class="product-inner">
+                                        <ul>
+                                            <li><a href="#">VRLA Battery For Solar Application</a></li>
+                                                <li><a href="#">MF Battery for Solar Application  </a></li>
+                                                <li></li><a href="#">Motorcycle Battery</a></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <form class="form-box">
+                                    <fieldset >
+                                      <legend>Subscribe to Our Newsletter</legend>
+                                      <div class="mb-3">
+                                        <label for="disabledTextInput" class="form-label text-light">Email :</label>
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Your Email Id">
+                                      </div>
+                                      <button type="submit" class="btn btn-primary">Subscribe</button>
+                                    </fieldset>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- owl-carousel -->
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+            autoplay: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+    </script>
+
+</body>
+
+</html>
