@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>contact-page</title>
+</head>
+<body>
+
+    <!-- navbar-section -->
+
+    <section>
+        <div class="nav-bar-wrapper">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="nav-logo">
+                        <img src="./img/nav-logo.png" alt="Logo">
+                    </div>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner-swiper-section -->
+
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper slides-per-view=" 1 speed="500" loop="true" css-mode="true">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./contact-img/contact-banner.jpg" alt="">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="contact-info-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="contact-info-main-box-1">
+                            <div class="contact-info-logo-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-info-text-box">
+                                <h4>location</h4>
+                                <p> Block No - 541, Plot No - 109, Njeru Kayunga Road , Naminya P.O. Box : 2228,
+                                    Jinja - Uganda.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="contact-info-main-box-2">
+                            <div class="contact-info-logo-box">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div class="contact-info-text-box">
+                                <h4>phone</h4>
+                                <p> Mobile: 012 345 678
+                                    <br>
+                                    Fax: 123 456 789
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="contact-info-main-box-3">
+                            <div class="contact-info-logo-box">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text-box">
+                                <h4>email</h4>
+                                <p> Support24/7@example.com
+                                    <br>
+                                    info@example.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="contact-info-main-box-4">
+                            <div class="contact-info-logo-box">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text-box">
+                                <h4>office-timing</h4>
+                                <p> Office Timings
+                                    9 : AM To 7 : PM
+                                    <br>
+                                    Monday To Saturday
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact-form -->
+
+    <section class="section-entry">
+        <div class="contact-form-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="contact-form-img-box">
+                            <img src="./contact-img/form-contact.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="contact-form-para-box">
+                            <h5>send us massage</h5>
+                            <h2>contact with us</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <br>
+                                <label for="formGroupExampleInput" class="form-label">Your name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <br>
+                                <label for="formGroupExampleInput" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="Last name" aria-label="Last name">
+                            </div>
+                            <div class="mb-3">
+                                <br>
+                                <label for="formGroupExampleInput" class="form-label">Mobile number</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="Your number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="your-opinion-box" class="form-label">Your massage</label>
+                                <textarea id="your-opinion-box" class="form-control"
+                                    placeholder="Tell as a few words"></textarea>
+                            </div>
+                            <div class="contact-button-box mb-3">
+                                <button>Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service-center -->
+
+    <section class="section-entry">
+        <div class="service-center-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="service-center-logo-para-box">
+                            <div class="service-center-para-box">
+                                <h2>service center</h2>
+                                <p>Gold Star Battery (U) Limited.</p>
+                                <p>Shop No. LP - 40, Basement Numba Kubwa Building, Nr. Arua Park Kampala, Uganda.
+                                </p>
+                                <div class="service-center-logo-box">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <a href="tel:256754305201">+256 754 305 201</a>
+                                </div>
+                                <div class="service-center-logo-box">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <a href="mailto:google.com">@google.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="service-center-img-box">
+                            <img src="./contact-img/service-center.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer-section -->
+
+    <section>
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="footer-image-box">
+                            <img src="./img/footer-logo.png" alt="">
+                        </div>
+                        <div class="footer-logo-box">
+                            <ul>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-instagram"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-facebook"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fa-brands fa-linkedin"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="footer-image-battery-box">
+                            <img src="./img/footer-battery.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="quick-links-box">
+                                    <h5>quick links</h5>
+                                    <div class="quick-links-inner">
+                                        <ul>
+                                            <a href="#">
+                                                <li><a href="#">home</a></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><a href="#">about</a></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><a href="#">product</a></li>
+                                            </a>
+                                            <a href="#">
+                                                <li><a href="#">contact</a></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="product-box">
+                                    <h5>product box</h5>
+                                    <div class="product-inner">
+                                        <ul>
+                                            <li><a href="#">VRLA Battery For Solar Application</a></li>
+                                            <li><a href="#">MF Battery for Solar Application </a></li>
+                                            <li></li><a href="#">Motorcycle Battery</a></li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <form class="form-box">
+                                    <fieldset>
+                                        <legend>Subscribe to Our Newsletter</legend>
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label text-light">Email
+                                                :</label>
+                                            <input type="text" id="disabledTextInput" class="form-control"
+                                                placeholder="Your Email Id">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- owl-carousel -->
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+            autoplay: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+    </script>
+</body>
+
+</html>
