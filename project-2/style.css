@@ -743,8 +743,6 @@ body {
 }
 
 
-
-
 /* media-quary */
 
 @media only screen and (max-width: 1200px) {}
@@ -752,6 +750,11 @@ body {
  @media only screen and (max-width: 991px) { }
 
  @media only screen and (max-width: 767px) {
+  .navbar ul {
+    margin-left: -23px;
+    margin-top: 20px;
+  }
+
   .about-heading-box h6 {
     margin-top: 55px;
   }
