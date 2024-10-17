@@ -23,25 +23,39 @@
 
 <body>
 
-    <!-- navbar-section -->
+    <!-- nav-section -->
 
-    <section>
-        <div class="nav-bar-wrapper">
-            <div class="container">
-                <nav class="navbar">
-                    <div class="nav-logo">
-                        <img src="./img/nav-logo.png" alt="Logo">
-                    </div>
-                    <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="gallery.html">gallery</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </nav>
+    <nav class="navbar myNavbar navbar-expand-lg " id="navbar">
+        <div class="container">
+            <a class="navbar-brand myNav-brand" href="#">
+                <img src="img/footer-logo.png" alt="" class="img-fluid">
+            </a>
+            <button class="navbar-toggler myNav-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon myNav-toggler-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse myNav-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto myNav-nav">
+                    <li class="nav-item myNav-item">
+                        <a class="nav-link myNav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item myNav-item">
+                        <a class="nav-link myNav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item myNav-item">
+                        <a class="nav-link myNav-link" href="menu.html">menu</a>
+                    </li>
+                    <li class="nav-item myNav-item">
+                        <a class="nav-link myNav-link" href="contact.html">contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </nav>
+    <div class="scroll-point"></div>
+
 
     <!-- banner-carousel-section -->
 

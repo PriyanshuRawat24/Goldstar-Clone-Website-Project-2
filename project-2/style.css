@@ -7,56 +7,31 @@ body {
   scroll-behavior: smooth;
 }
 
-.nav-bar-wrapper {
-  background-color: black;
-}
-
 .navbar {
   background-color: black;
   color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-
-.navbar .nav-logo {
-  color: white;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  margin-right: 80px;
-}
-
-.navbar ul li {
-  margin-left: 40px;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
   text-transform: capitalize;
 }
 
-.navbar ul li a:hover {
-  color: grey;
+.nav-link:hover {
+  background-color: #fff;
+  border-radius: 5px;
 }
 
-.nav-logo {
-  display: flex;
-  align-items: center;
+.nav-item a{
+  color: #fff;
 }
 
-.nav-logo img {
-  width: 100%;
-  height: auto;
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item {
+  margin-right: 50px;
 }
 
 /* about-section */
@@ -327,7 +302,6 @@ body {
   /* margin-left: 20rem; */
 }
 
-
 .our-blog-article-text-box {
   margin-top: 50px;
   margin-right: 6rem;
@@ -549,11 +523,11 @@ body {
   text-transform: capitalize;
 }
 
-.feature-text-box h3{
+.feature-text-box h3 {
   margin-top: 7rem;
 }
 
-.feature-text-box p{
+.feature-text-box p {
   margin-top: 2rem;
 }
 
@@ -718,13 +692,13 @@ body {
   margin-bottom: 60px;
 }
 
-.gallery-image-heading-box h4{
-  color:#1f6300;
+.gallery-image-heading-box h4 {
+  color: #1f6300;
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
 }
-.gallery-image-heading-box h2{
+.gallery-image-heading-box h2 {
   text-align: center;
   text-transform: capitalize;
 }
@@ -735,26 +709,26 @@ body {
   margin-top: 40px;
   padding: 1px;
   padding-bottom: 2px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .gallery-img-box:hover {
   transform: scale(1.1);
 }
 
-
 /* media-quary */
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+}
 
- @media only screen and (max-width: 991px) { }
+@media only screen and (max-width: 991px) {
+}
 
- @media only screen and (max-width: 767px) {
-  .navbar ul {
-    margin-left: -23px;
-    margin-top: 20px;
+@media only screen and (max-width: 767px) {
+
+  .navbar-brand img{
+    width: 160px;
   }
-
   .about-heading-box h6 {
     margin-top: 55px;
   }
@@ -766,7 +740,7 @@ body {
     margin-top: -50px;
     margin-bottom: -90px;
   }
-  .feature-heading-text-box h3{
+  .feature-heading-text-box h3 {
     margin-bottom: 20px;
     margin-right: 56px;
   }
@@ -785,7 +759,7 @@ body {
   .our-blog-article-text-box {
     margin-left: 60px;
   }
-  .our-blog-article-text-box p{
+  .our-blog-article-text-box p {
     margin-top: 35px;
   }
   .button-box-blog-box button {
@@ -811,7 +785,7 @@ body {
     margin-top: 7px;
   }
 
-  .feature-text-box p{
+  .feature-text-box p {
     margin-top: 25px;
   }
 
@@ -840,21 +814,18 @@ body {
     text-align: center;
   }
 
-  .service-center-img-box img{
+  .service-center-img-box img {
     margin-left: 55px;
   }
+}
 
-   }
+@media only screen and (max-width: 600px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
 
- @media only screen and (max-width: 600px) { 
-
-    table {
-        display: block;   
-        width: 100%;
-        overflow-x: auto;
-    }
- }
-
- @media only screen and (max-width:575px){
-
- }
+@media only screen and (max-width: 575px) {
+}
